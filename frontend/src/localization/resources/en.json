@@ -1,0 +1,198 @@
+{
+  "validations": {
+    "field-error_required": "Please fill out this field",
+    "field-error_requiredIf": "Please fill out this field",
+    "field-error_email": "Field must be a valid email",
+    "field-error_address": "Field must be a valid address",
+    "field-error_minLength": "Value must be at least {min} chars",
+    "field-error_maxLength": "Value can't be greater than {max} chars",
+    "field-error_urlSymbols": "All unsafe and reserved url chars are restricted",
+    "field-error_minValue": "Value must be at least {min}",
+    "field-error_maxValue": "Max value is {max}"
+  },
+  "errors": {
+    "default": "Oops... Something went wrong",
+    "provider-user-rejected-request": "User rejected request.",
+    "provider-unauthorized": "The requested method and/or account has not been authorized by the user.",
+    "provider-unsupported-method": "The Provider does not support the requested method.",
+    "provider-disconnected": "The Provider is disconnected from all chains.",
+    "provider-chain-disconnected": "The Provider is not connected to the requested chain.",
+    "provider-parse-error": "Invalid JSON standard",
+    "provider-invalid-request": "JSON is not a valid request object standard",
+    "provider-method-not-found": "Method does not exist standard",
+    "provider-invalid-params": "Invalid method parameters standard",
+    "provider-internal-error": "Internal JSON-RPC error standard",
+    "provider-invalid-input": "Missing or invalid parameters non-standard",
+    "provider-resource-not-found": "equested resource not found non-standard",
+    "provider-resource-unavailable": "Requested resource not available non-standard",
+    "provider-transaction-rejected": "Transaction creation failed non-standard",
+    "provider-method-not-supported": "Method is not implemented non-standard",
+    "provider-limit-exceeded": "Request exceeds defined limit non-standard",
+    "provider-json-rpc-version-not-supported": "Version of JSON-RPC protocol is not supported non-standard",
+    "provider-wrapper-method-not-found": "provider not exist or hasn't this method"
+  },
+  "notification": {
+    "default-title-success": "Success",
+    "default-title-error": "Error",
+    "default-title-warning": "Warning",
+    "default-title-info": "Info",
+    "default-title-default": "Just a message",
+    "default-message-success": "Action successful",
+    "default-message-error": "Something went wrong",
+    "default-message-warning": "Something you are doing is not recommended",
+    "default-message-info": "Something is happening. Just want you to know that",
+    "default-message-default": "Just a message"
+  },
+  "confirm-modal": {
+    "title": "Delete {entity}",
+    "subtitle": "You are about to delete this. This action cannot be undone.",
+    "decline-btn": "Cancel",
+    "confirm-btn": "Confirm"
+  },
+  "main-page": {
+    "title": "Welcome to Webster",
+    "subtitle": "Edit your images and make them NFT",
+    "connect-btn": "Connect to Metamask",
+    "empty": "No offers currently available on the marketplace",
+    "marketplace-title": "NFT's for sale",
+    "load-more-btn": "Show more",
+    "error-msg": "Failed to load offers"
+  },
+  "projects-page": {
+    "title": "Your projects",
+    "error-msg": "Failed to load projects",
+    "create-btn": "Create new project",
+    "load-more-btn": "Show more"
+  },
+  "project-item-page": {
+    "owner-lbl": "Owner",
+    "file-lbl": "File",
+    "created-at-lbl": "Created",
+    "file-uploaded-lbl": "Uploaded",
+    "file-field-title": "Upload Photo*",
+    "file-field-description": "JPG, PNG, JPEG less than 5 mb",
+    "default-image-lbl": "Proceed with default image",
+    "download-image-btn": "Download",
+    "delete-btn": "DELETE PROJECT",
+    "save-image-btn": "Save",
+    "sell-btn": "Sell",
+    "success-save": "Project saved",
+    "success-delete": "Project deleted",
+    "project-entity": "project"
+  },
+  "my-nfts-page": {
+    "title": "My NFTs",
+    "error-msg": "Failed to load nfts",
+    "empty": "No nfts found. Go to markerplace and buy some!",
+    "not-connected-msg": "Please, connect metamask to see your NFTs"
+  },
+  "project-form": {
+    "name-lbl": "Name",
+    "owner-lbl": "Owner",
+    "owner-placeholder": "Enter owner's address",
+    "name-placeholder": "Enter project name",
+    "create-title": "Create project",
+    "update-title": "Update project",
+    "cancel-btn": "Cancel",
+    "submit-btn": "Submit",
+    "success-create-msg": "Project successfuly created",
+    "success-update-msg": "Project successfuly updated"
+  },
+  "put-offer-form": {
+    "title": "Put picture on sale",
+    "title-lbl": "Title",
+    "title-placeholder": "Enter title for your offer",
+    "price-lbl": "Price",
+    "price-placeholder": "Enter price in native currency",
+    "description-lbl": "Description",
+    "description-placeholder": "Describe your picture",
+    "cancel-btn": "Cancel",
+    "submit-btn": "Put on sale",
+    "success-msg": "Item is now on marketplace",
+    "wrong-network": "You are connected to unsupported network",
+    "switch-btn": "Switch network",
+    "save-reminder": "Don't forget to save your changes!"
+  },
+  "edit-offer-form": {
+    "title": "Edit offer details",
+    "price-lbl": "Price",
+    "price-placeholder": "Enter price in native currency",
+    "cancel-btn": "Cancel",
+    "submit-btn": "Save",
+    "success-msg": "Details updated!"
+  },
+  "purchase-form": {
+    "title": "Purchase NFT",
+    "recipient-lbl": "Recipient",
+    "recipient-placeholder": "Enter wallet address which will get NFT",
+    "cancel-btn": "Cancel",
+    "submit-btn": "Buy",
+    "success-msg": "Nft succesfully purchased!"
+  },
+  "nav-bar": {
+    "connect-btn": "Connect to Metamask",
+    "my-projects-link": "My Projects",
+    "marketplace-link": "Marketplace",
+    "my-nfts-link": "My NFTs"
+  },
+  "app-logo": {
+    "title": "Webster"
+  },
+  "app-footer": {
+    "github-link": "Github",
+    "telegram-link": "Questions & Answers"
+  },
+  "projects-no-data": {
+    "title": "No projects found",
+    "subtitle": "Create a new one to get started!",
+    "not-connected-msg": "Please, connect metamask to manage your projects",
+    "connect-btn": "Connect to Metamask",
+    "create-btn": "Create project"
+  },
+  "nft-item-page": {
+    "buy-btn": "Purchase",
+    "owner-lbl": "You own this magnificent work of art!",
+    "author-lbl": "You can be proud of your art!"
+  },
+  "nft-details": {
+    "created-at": "Published",
+    "author": "Author",
+    "price": "Price",
+    "network": "Supported chain"
+  },
+  "account-info": {
+    "copy-address": "Copy address"
+  },
+  "zoom-tool": {
+    "title": "Zoom",
+    "reset-btn": "Reset"
+  },
+  "text-tool": {
+    "title": "Text",
+    "add-text": "Add new text layer"
+  },
+  "shapes-tool": {
+    "title": "Shapes",
+    "subtitle": "Images",
+    "upload-btn": "Add image as a layer"
+  },
+  "layering-tool": {
+    "title": "Layer"
+  },
+  "color-tool": {
+    "title": "Colors",
+    "stroke-width-lbl": "Stroke width"
+  },
+  "drawing-tool": {
+    "title": "Drawing",
+    "settings-lbl": "Settings"
+  },
+  "image-editor-toolkit": {
+    "bring-to-front-lbl": "Bring to front",
+    "send-to-back-lbl": "Send to back",
+    "copy-lbl": "Copy object",
+    "paste-lbl": "Paste object",
+    "disable-guidelines-lbl": "Disable guidelines",
+    "options-lbl": "Additional settings"
+  }
+}
